@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color:#d3d3d3
+}
+a:hover{
+    color:#d3d3d3
+}
+li{
+    margin: 0px 20px 0px 20px;
+}
+ul ul li{
+    margin: 0;
+    padding: 0;
+}
+li :hover{
+    background-color: rgb(99, 95, 95);
+}
+ul ul:hover{
+    background-color: white;
+}
+ul ul li:hover{
+    background-color: white;
+}
+.title{
+    font-size: 30px;
+}
+.subtitle{
+    color: rgba(255, 0, 0, 0.993);
+    font-size: 42px;
+    font-weight:900;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.intro{
+    height: 600px;
+}
+.imagenes{
+    width: 400px;
+    height: 300px;
+}
+.paquetes{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border: solid 2px;
+    border-color: red;
+    padding: 10px;
+    margin-top: 15px;
+}
+.paque{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: red;
+    border: solid 2px;
+    border-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+
+}
+.destinos{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 20px 0px 10px 20px;
+    padding-left: 20%;
+
+}
+#trans{
+    display: flex;
+    justify-content: center;
+}
+#contacto{
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 15px;
+}
+.formulario{
+    width: 60%;
+    height: 30px;
+    margin-left: 20%;
+    padding-bottom: 5px;
+    color: rgba(255, 0, 0, 0.993);
+    font-size: 22px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.button{
+    background-color: red;
+    color: white;
+    font-size: 26px;
+    width: 200px;
+    height: 50px;
+    margin-left: 43%;
+    margin-bottom: 10px;
+}
+.mar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pie{
+    background-color: rgb(255, 0, 0);
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+footer ul li:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+#redes{
+    display: flex;
+    justify-content: flex-end;
+}
+.iconos{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    color: #000;
+}
+@media (max-width: 1000px){
+    li{
+        margin: 0px 0px 0px 0px;
+    }
+    .intro{
+        height: 400px;
+    }
+}

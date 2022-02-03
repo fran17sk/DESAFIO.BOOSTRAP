@@ -5,105 +5,53 @@
     font-family: 'PT Sans Narrow', sans-serif;
     scroll-behavior: smooth;
 }
-header{
-    background-color: #000;
-}
-h5{
-    color: #d3d3d3;
-}
-body{
-    background-color: #000;
-}
-.title{
-    color: rgb(255, 0, 0);
-    font-size: 75px;
-    padding-left: 25px;
-}
-.subtitle{
-    color: rgba(0, 0, 0, 0.993);
-    font-size: 24px;
-    padding-left: 25px;
-}
 a{
     text-decoration: none;
     color:#d3d3d3
 }
-header article{
-    background-image: url(https://tsnnecochea.com.ar/wp-content/uploads/2020/05/OF55GNGBMRH3DMI46OQSIOSR6U-scaled.jpg);
-    padding-bottom: 700px;
+a:hover{
+    color:#d3d3d3
 }
-main{
-    background-color: #000;;
+li{
+    margin: 0px 20px 0px 20px;
+}
+ul ul li{
+    margin: 0;
+    padding: 0;
+}
+li :hover{
+    background-color: rgb(99, 95, 95);
+}
+ul ul:hover{
+    background-color: white;
+}
+ul ul li:hover{
+    background-color: white;
+}
+.title{
+    font-size: 30px;
+}
+.subtitle{
+    color: rgba(255, 0, 0, 0.993);
+    font-size: 42px;
+    font-weight:900;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.intro{
+    height: 600px;
 }
 .border{
     border: solid 1px white;
 }
 /************RESPONSIVE**************/
 /****DESKTOP****/
-.logo{
-    width: 100px;
-    height: 100px;
-    margin-top: 2%;
-    margin-left: 1%;
-}
 .imagenes{
     width: 400px;
     height: 300px;
 }
-.headFlex{
-    display: flex;
-    flex-flow: row nowrap;
-    margin-bottom: 20px;
-}
-div{
-    display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 20px;
-}
-.menuFlex{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
 
-}
-div nav ul{
-    list-style: none;
-}
-div nav {
-    margin-top: 30px;
-    width: 100%;
-
-}
-ul {
-    list-style: none;
-
-}
-li {
-    display: inline-block;
-    position:relative;
-    margin: 20px;
-    padding: 10px;
-    border:solid 1px red;	
-    background-color: black;
-    
-}
-ul ul
-{
-    position: absolute;
-    top: 40px; 
-    left: -20px;
-    display: none;
-}
-ul ul li {
-    display: block;
-}
-ul li:hover ul {
-    display:block;
-}
-
-li:hover{
-    background-color: red;
-}
 #terminos{
     margin-left: 33%;
 }
