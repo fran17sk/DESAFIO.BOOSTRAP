@@ -21,7 +21,7 @@ a{
 }
 .vcp{
     background-image: url("../img/vcp2.jpg") ;
-    background-size: 100% 400px;
+    background-size: 100% 600px;
     height: 400px;
 }
 .fotos{
@@ -221,6 +221,9 @@ footer ul li:hover{
     li{
         margin: 0px 0px 0px 0px;
     }
+    li:hover{
+        transform: scale(0.85,0.85);
+    }
     .intro{
         height: 400px;
     }
@@ -241,6 +244,9 @@ footer ul li:hover{
         background-size: 100% 350px;
         height: 350px;
     }
+    .imgg{
+        height: 400px;
+    }
 }
 @media (max-width: 500px){
     li{
@@ -254,6 +260,9 @@ footer ul li:hover{
     }
     .subtitulo{
         font-size: 25px;
+    }
+    .imgg{
+        height: 300px;
     }
 }
 @media (max-width: 600px){
