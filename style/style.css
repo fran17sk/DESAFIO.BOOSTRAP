@@ -163,6 +163,11 @@ ul ul li:hover{
     font-size: 22px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
+input::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+}
 .excur{
     display: flex;
     flex-flow: column nowrap;
@@ -302,6 +307,22 @@ ul ul li:hover{
 }
 .color :hover{
     color: white;
+}
+.anime{
+    animation-name: titleanime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes title{
+    0%{
+        color: red;
+    }
+    50%{
+        color: grey;
+    }
+    100%{
+        color: white;
+    }
 }
 .animacion{
     animation-name: animame;
